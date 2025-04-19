@@ -2,17 +2,21 @@
 
 *.exe
 *.pdb
-src/litecoin
-src/litecoind
-src/litecoin-cli
-src/litecoin-gui
-src/litecoin-node
-src/litecoin-tx
-src/litecoin-wallet
+src/vgccoin
+src/vgccoind
+src/vgccoin-cli
+src/vgccoin-gui
+src/vgccoin-node
+src/vgccoin-tx
+src/vgccoin-wallet
 src/test/fuzz/*
 !src/test/fuzz/*.*
-src/test/test_litecoin
-src/qt/test/test_litecoin-qt
+src/test/test_vgccoin
+src/qt/test/test_vgccoin-qt
+
+vgccoin.conf
+
+
 
 # autoreconf
 Makefile.in
@@ -94,7 +98,7 @@ src/qt/bitcoin-qt.includes
 *.qm
 Makefile
 !depends/Makefile
-src/qt/litecoin-qt
+src/qt/vgccoin-qt
 Litecoin-Qt.app
 background.tiff*
 
@@ -103,7 +107,7 @@ Makefile.am.user
 
 # Unit-tests
 Makefile.test
-litecoin-qt_test
+vgccoin-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -118,7 +122,7 @@ releases
 *.gcno
 *.gcda
 /*.info
-test_litecoin.coverage/
+test_vgccoin.coverage/
 total.coverage/
 fuzz.coverage/
 coverage_percent.txt
